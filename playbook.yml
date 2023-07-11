@@ -1,4 +1,4 @@
-- hosts: terraform-ansible
+- hosts: localhost
   tasks:
   - name: Python, virtualenv and docker dependencies
     apt:
